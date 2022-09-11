@@ -2,7 +2,6 @@
 // File: @openzeppelin/contracts@4.3.2/utils/Counters.sol
 
 
-
 pragma solidity ^0.8.0;
 
 /**
@@ -46,9 +45,6 @@ library Counters {
 
 // File: @openzeppelin/contracts@4.3.2/utils/cryptography/ECDSA.sol
 
-
-
-pragma solidity ^0.8.0;
 
 /**
  * @dev Elliptic Curve Digital Signature Algorithm (ECDSA) operations.
@@ -270,9 +266,6 @@ library ECDSA {
 
 
 
-pragma solidity ^0.8.0;
-
-
 /**
  * @dev https://eips.ethereum.org/EIPS/eip-712[EIP 712] is a standard for hashing and signing of typed structured data.
  *
@@ -372,9 +365,6 @@ abstract contract EIP712 {
 // File: @openzeppelin/contracts@4.3.2/token/ERC20/extensions/draft-IERC20Permit.sol
 
 
-
-pragma solidity ^0.8.0;
-
 /**
  * @dev Interface of the ERC20 Permit extension allowing approvals to be made via signatures, as defined in
  * https://eips.ethereum.org/EIPS/eip-2612[EIP-2612].
@@ -434,9 +424,6 @@ interface IERC20Permit {
 // File: @openzeppelin/contracts@4.3.2/utils/introspection/IERC165.sol
 
 
-
-pragma solidity ^0.8.0;
-
 /**
  * @dev Interface of the ERC165 standard, as defined in the
  * https://eips.ethereum.org/EIPS/eip-165[EIP].
@@ -460,9 +447,6 @@ interface IERC165 {
 
 // File: @openzeppelin/contracts@4.3.2/utils/introspection/ERC165.sol
 
-
-
-pragma solidity ^0.8.0;
 
 
 /**
@@ -490,9 +474,6 @@ abstract contract ERC165 is IERC165 {
 
 // File: @openzeppelin/contracts@4.3.2/utils/Strings.sol
 
-
-
-pragma solidity ^0.8.0;
 
 /**
  * @dev String operations.
@@ -559,9 +540,6 @@ library Strings {
 
 // File: @openzeppelin/contracts@4.3.2/access/IAccessControl.sol
 
-
-
-pragma solidity ^0.8.0;
 
 /**
  * @dev External interface of AccessControl declared to support ERC165 detection.
@@ -650,9 +628,6 @@ interface IAccessControl {
 // File: @openzeppelin/contracts@4.3.2/utils/Context.sol
 
 
-
-pragma solidity ^0.8.0;
-
 /**
  * @dev Provides information about the current execution context, including the
  * sender of the transaction and its data. While these are generally available
@@ -675,9 +650,6 @@ abstract contract Context {
 
 // File: @openzeppelin/contracts@4.3.2/access/AccessControl.sol
 
-
-
-pragma solidity ^0.8.0;
 
 
 
@@ -889,9 +861,6 @@ abstract contract AccessControl is Context, IAccessControl, ERC165 {
 
 
 
-pragma solidity ^0.8.0;
-
-
 /**
  * @dev Contract module which allows children to implement an emergency stop
  * mechanism that can be triggered by an authorized account.
@@ -980,9 +949,6 @@ abstract contract Pausable is Context {
 // File: @openzeppelin/contracts@4.3.2/token/ERC20/IERC20.sol
 
 
-
-pragma solidity ^0.8.0;
-
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
  */
@@ -1065,9 +1031,6 @@ interface IERC20 {
 
 
 
-pragma solidity ^0.8.0;
-
-
 /**
  * @dev Interface for the optional metadata functions from the ERC20 standard.
  *
@@ -1092,9 +1055,6 @@ interface IERC20Metadata is IERC20 {
 
 // File: @openzeppelin/contracts@4.3.2/token/ERC20/ERC20.sol
 
-
-
-pragma solidity ^0.8.0;
 
 
 
@@ -1451,9 +1411,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 
 
-pragma solidity ^0.8.0;
-
-
 
 
 
@@ -1537,9 +1494,6 @@ abstract contract ERC20Permit is ERC20, IERC20Permit, EIP712 {
 
 // File: @openzeppelin/contracts@4.3.2/token/ERC20/extensions/ERC20Burnable.sol
 
-
-
-pragma solidity ^0.8.0;
 
 
 
